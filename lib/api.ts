@@ -1,5 +1,5 @@
 import axios from "axios";
-import { NoteCreatePayload, Note } from "../app/types/note";
+import { NoteCreatePayload, Note } from "@/types/note";
 
 const myPostsKey = process.env.NEXT_PUBLIC_NOTEHUB_TOKEN;
 
